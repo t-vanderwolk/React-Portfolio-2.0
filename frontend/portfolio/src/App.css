@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+/* html{
+  background-color:#AF8FEE; ;
+} */
+
+.App {
+  text-align: center;
+
+}
+
+.me{
+ color: #1e1138;
+ background-color: #EEBCE9;
+ 
+
+
+}
+.name{
+  color:#1e1138;
+  font-family: 'Dancing Script', cursive;
+
+}
+.Hero-pic{
+
+  background-color: #AF8FEE;
+}
+.hero{
+  width: 100%;
+  padding: 3%;
+
+}
+.header{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  background-color:#EEBCE9;
+  color:#1e1138;
+  margin: 0;
+}
+.about-me{
+  padding: 5%;
+  background-color: #AF8FEE;
+  margin: 0;
+  font-size: 150%;
+}
+div .selfie{
+  width: 20%;
+  border-radius: 10%;
+  background-color: #1e1138;
+}
+.self-pic{
+  background-color: #1e1138; 
+  display: flex;
+  justify-content: space-evenly;
+  color: #EEBCE9;
+  align-items:center;
+  font-size: 500%;
+}
+#design{
+  font-size: 100%;
+}
+#code{
+  font-size: 100%;
+ 
+}
+.skills{
+  list-style: none;
+  font-size: 150%;
+  display: inline-block;
+  border: 10px solid #EEBCE9;
+  padding: 10%;
+  margin: 3%;
+  background-color:#1e1138;;
+  color:#EEBCE9;
+}
+#skill-list{
+  background-color:#AF8FEE;
+ 
+}
