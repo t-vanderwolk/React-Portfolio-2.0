@@ -10,6 +10,7 @@ export default function About() {
    <img className='selfie' src={require("../pics/DF035C73-8864-44A0-8BD7-85A16FED7B94_1_105_c.jpeg")} alt="self-pic" />
    <h1 id='code'>Code</h1>
    </div>
+   <div className='info'>
     <p className='about-me'>
 Hello World! <br></br>
 
@@ -25,6 +26,7 @@ creating servers and databases for functionality.<br></br>
 
 Also, ensuring cross-platforms optimization for mobile phones, designing and developing APIs, and meeting both technical and consumer needs.
 <br></br></p>
+</div>
 </>
     
 

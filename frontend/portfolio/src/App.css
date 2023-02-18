@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
-/* html{
-  background-color:#AF8FEE; ;
+/* *{
+  background-color:#EEBCE9 ;
 } */
+
 
 .App {
   text-align: center;
+  background-color: #EEBCE9;
 
 }
 
 .me{
  color: #1e1138;
- background-color: #EEBCE9;
+ background-color: #AF8FEE;
  
 
 
@@ -23,33 +25,46 @@
 }
 .Hero-pic{
 
-  background-color: #AF8FEE;
+  background-color: #EEBCE9;
 }
 .hero{
   width: 100%;
-  padding: 3%;
+  padding: 2%;
 
 }
 .header{
   text-align: center;
   font-family: 'Dancing Script', cursive;
-  background-color:#EEBCE9;
+  background-color:#AF8FEE;
   color:#1e1138;
   margin: 0;
 }
 .about-me{
-  padding: 5%;
-  background-color: #AF8FEE;
-  margin: 0;
+  padding: 2%;
+  background-color: #1e1138;
+  color: #AF8FEE;
+  border: 5px solid  #AF8FEE ;
+ margin-top: 0;
+ margin-left: 2%;
+ margin-right: 2%;
   font-size: 150%;
 }
+.info{
+  background-color: #EEBCE9;
+}
+
+/* div {
+  background-color: #EEBCE9;
+} */
 div .selfie{
   width: 20%;
   border-radius: 10%;
-  background-color: #1e1138;
+
+  border: 5px solid #1e1138;
+  margin: 2%;
 }
 .self-pic{
-  background-color: #1e1138; 
+  background-color: #EEBCE9;
   display: flex;
   justify-content: space-evenly;
   color: #EEBCE9;
@@ -58,22 +73,67 @@ div .selfie{
 }
 #design{
   font-size: 100%;
+  color: #AF8FEE;
+  background-color:#1e1138;
+  padding: 5%;
+  border: 5px solid  #AF8FEE ;
 }
 #code{
   font-size: 100%;
+  color: #AF8FEE;
+  background-color:#1e1138;
+  padding: 5%;
+  border: 5px solid  #AF8FEE ;
  
 }
 .skills{
   list-style: none;
   font-size: 150%;
   display: inline-block;
-  border: 10px solid #EEBCE9;
-  padding: 10%;
+  border: 5px solid #AF8FEE;
+  padding: 5%;
   margin: 3%;
   background-color:#1e1138;;
-  color:#EEBCE9;
+  color:#AF8FEE;
 }
-#skill-list{
-  background-color:#AF8FEE;
- 
+.skill-list{
+  background-color: #EEBCE9;
+  align-items: center;
+display: flex;
+justify-content: space-evenly;
+margin: 5%;
+}
+#html{
+  width:70%;
+  /* border: 5px solid #AF8FEE; */
+  background-color: #1e1138;
+  padding: 5%;
+
+
+
+}
+#js{
+  width:70%;
+  /* border: 5px solid #AF8FEE; */
+  background-color: #1e1138;
+  padding: 5%;
+
+
+}
+.cards{
+  display: flex;
+  align-items:baseline;
+
+  background-color: #1e1138;
+}
+.certs{
+ display: block;
+ justify-content: space-around;
+ background-color: #1e1138;
+ /* padding: 7%; */
+ /* border: 5px solid #AF8FEE; */
+ margin:5%; 
+ border: 5px solid #AF8FEE;
+
+
 }

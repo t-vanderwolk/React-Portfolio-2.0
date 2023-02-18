@@ -38,13 +38,11 @@ function MainNavbar (props) {
               <NavItem>
             
            
-              <NavLink href="/components/">My Projects</NavLink>
+              <NavLink href="frontend/portfolio/src/pages/Projects.js">My Projects</NavLink>
               </NavItem>
+             
               <NavItem>
-              <NavLink href="/components/">Group Projects</NavLink>
-              </NavItem>
-              <NavItem>
-              <NavLink href="/components/">Contact Me</NavLink>
+              <NavLink href="./pages/">Contact Me</NavLink>
               </NavItem>
           </Nav>
         </Collapse>
